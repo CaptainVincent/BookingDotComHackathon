@@ -1,0 +1,41 @@
+{
+  "name": "Recommander",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "circle-enclose": "^1.0.0",
+    "clusterfck": "^0.6.0",
+    "react": "~15.4.1",
+    "react-native": "0.42.0",
+    "react-native-action-button": "^2.6.3",
+    "react-native-cached-image": "^1.2.5",
+    "react-native-google-places-autocomplete": "^1.2.8",
+    "react-native-maps": "^0.13.0",
+    "react-native-pathjs-charts": "0.0.26",
+    "react-native-prompt": "^1.0.0",
+    "react-native-router-flux": "^3.38.0",
+    "react-native-simple-store": "^1.1.0",
+    "react-native-slider": "^0.9.1",
+    "react-native-spinkit": "^1.0.2",
+    "react-native-swipe-list-view": "^0.4.0",
+    "react-native-swipeout": "git+https://github.com/dancormier/react-native-swipeout.git",
+    "react-native-vector-icons": "^4.0.0",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "~15.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

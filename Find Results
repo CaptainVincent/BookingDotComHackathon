@@ -1,0 +1,23 @@
+Searching 19 files for "HotelInfo"
+
+/Users/linzigang/WorkSpace/BookingDotCom/Recommander/src/components/HotelList/HotelInfo.js:
+   12  import { Actions } from 'react-native-router-flux';
+   13
+   14: export default class HotelInfo extends Component {
+   15    OnPress() {
+   16      Actions.UserViewer({user: this.props.user});
+
+/Users/linzigang/WorkSpace/BookingDotCom/Recommander/src/components/HotelList/index.js:
+   11
+   12  import Spinner from 'react-native-spinkit';
+   13: import HotelInfo from './HotelInfo';
+   14  import {getHotelsByLocation, getCityId, getCityName, getHotels, filterHotels} from '../../utils/utils.js'
+   15
+   ..
+   48
+   49    renderItem(item) {
+   50:       return <HotelInfo hotel={item} key={item.city_id}/>
+   51    }
+   52
+
+4 matches across 2 files
